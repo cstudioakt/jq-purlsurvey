@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PURLjqSurvey</title>
+		<link rel="stylesheet" lang="en" charset="utf-8" href="style.css" media="screen" />
+		<link rel="stylesheet" lang="en" charset="utf-8" href="tipTip.css" media="screen" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.tipTip.js"></script>
+	</head>
+	<body>
+		
+		<div class="global">
+		
+			<div class="title">
+				<img src="images/logo.png" title="Johnson and Quin" alt="Johnson and Quin" />
+			</div>
+			
+			<p class="message">
+				Thank you for taking the time to participate in this survey on PURLs (<a href="#" title="A Personalized URL (PURL) provides a unique web address for each individual. By adding PURLs (such as Name.Survey.com) to a direct mail or email campaign, the recipient will be directed to their own unique landing pages or microsite to provide more information and/or sign up for a newsletter, receive a coupon, view a video, etc.">Personalized URLs</a>) and QR (<a href="#" title="Quick Response Codes (QR Codes) are two-dimensional barcodes that enable mobile users to jump from printed materials to online content, such as a website, downloadable coupon or other offer, or video. A generic QR Code will lead to the same web pages or other content for each person scanning them. With a personalized QR code, the responder is linked to a dynamic landing page or personalized microsite. Each responder is identified, can be provided specific data-based information, and can be tracked individually.">Quick Response</a>)" codes. The survey should only take a few minutes. In appreciation of your participation, you will be provided with a complimentary summary report of the results.
+			</p>
+			
+			
+			<div class="form_container">
+				
+				<div class="form_top"></div>
+				
+				<div class="form_mid">
+
+					<form action="summary.html" method="post">
+						
+						<div class="inside_top">
+							<h1>Purl/QR code Survey</h1>
+							<h3><span class="large">Question 1:</span>What was your purpose in using PURLs and/or QR Codes? Check all that apply.</h3>
+						</div>
+						
+						<div class="inside_middle">
+						
+							<input type="checkbox" value="" name="" /><label for="">Increase response</label>
+							<br />
+							<input type="checkbox" value="" name="" /><label for="">Drive to a website</label>
+							<br />
+							<input type="checkbox" value="" name="" /><label for="">Promote brand</label>
+							<br />
+							<input type="checkbox" value="" name="" /><label for="">Facilitate online or mobile donations</label>
+							<br />
+							<input type="checkbox" value="" name="" /><label for="">Facilitate event registration</label>
+							<br />
+							<input type="checkbox" value="" name="" /><label for="">Acquire accurate response data quickly</label>
+							
+							<div class="spacer"></div>
+							
+							<div class="errors">
+						 		<ul>
+						 			<li>Error: Please select an Item</li>
+						 		</ul>
+						 	</div>
+							
+							<div class="submit_area clearfix">
+								
+								<div class="next">
+									
+									<input type="submit" value="" />
+									
+								</div>
+								
+								<div class="progress clearfix">
+									<div class="cap_start"></div>
+									<div class="cap_progress"></div>
+									<div class="cap_end"></div>
+									<p>1 of 12</p>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="inside_bottom"></div>
+						
+					</form>
+					
+				</div>
+				
+				<div class="form_bottom"></div>
+				
+			</div>
+		
+		</div>
+		
+		<script type="text/javascript">
+			$(function() {
+				$('.message a').tipTip();
+			});
+		</script>
+	</body>
+</html>
